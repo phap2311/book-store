@@ -1,5 +1,5 @@
 # book-store
-•	Bookstore API
+	Bookstore API
 
 Introduction
    The Bookstore API project is a RESTful service built with Spring Boot that provides basic features 
