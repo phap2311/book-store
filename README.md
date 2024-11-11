@@ -76,7 +76,14 @@ List All Books
 Update Book
    URL: /books/{id}
    Method: PUT
-   Request Body: Update book details, structured as in book creation.
+   Request Body:
+   {
+   "title": "Great Expectations",
+   "author": "Charles Dickens",
+   "published_date": "1860-12-01",
+   "isbn": "1269308353",
+   "price": 10.55
+   }
    Response: Updated information of the book.
 
 Delete Book
